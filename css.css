@@ -1,0 +1,19 @@
+body {
+    
+}
+#numbers{
+    display:grid;
+    grid-template-columns: repeat(9,auto);
+    width:1px;  
+}
+
+
+
+button{
+    background-color:yellow;
+}
+
+.but{
+   width: 60px;
+    height: 60px;
+}
