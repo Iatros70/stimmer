@@ -43,7 +43,13 @@ function btnClick(e) {
     return;
   }
   
-    
+  if (bYellowClick == true) {
+    if (e.target.id == 31 || e.target.id == 32 || e.target.id == 33 || e.target.id == 40 || e.target.id == 41 || e.target.id == 42 || e.target.id == 49 || e.target.id == 50 || e.target.id == 51) {
+        alert("Mit der Mitte darf nicht getauscht werden !");
+        return;
+    }
+  }
+	
   if (e.target.style.background == 'yellow' && bYellowClick == false) {
     iSwitchFromID = e.target.id;
     bYellowClick = true;
