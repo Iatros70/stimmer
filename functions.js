@@ -277,3 +277,7 @@ function DisplayQuer() {
   bDispQuer = document.getElementById("chkQuer").checked;
 }
 // ---------------------------------------------------------------------------
+function New() {
+		location.reload();
+}
+// ---------------------------------------------------------------------------
