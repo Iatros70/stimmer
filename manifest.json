@@ -1,1 +1,6 @@
-
+{"name" : "Zahlengenie",
+    "short_name" : "Zahlengenie",
+    "description" : "Knobelspiel",
+    "start_url" : "https://iatros70.github.io/stimmer/",
+    "icons" : [
+    ]}
